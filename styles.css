@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start of nav page */
+
+.container{
+    height: 100vh;
+    max-width: 100%;
+    background-color: white
+}
+nav{
+    height: 5rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+.logo{
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+.logo i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+span{
+    color: rgb(9, 233, 9);
+    font-size: 3rem;
+}
+.nav-list {
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    margin: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    transition: .3s;
+}
+a:hover{
+    color: rgb(9, 233, 9);
+    cursor: pointer;
+}
+a:after{
+    content: '';
+    position: absolute;
+    background-color: rgb(9, 233, 9);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: .3s;
+}
+a:hover:after{
+    width: 100%;
+}
+ul li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+.btn button{
+    padding: .4rem 1.2rem;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0px 0px 10px 2px white;
+    border: 1px solid rgb(72, 72, 72);
+}
+button:hover{
+    transform: scale(1.2);
+}
+.contact{
+    height: 2.5rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 198, 8);
+    align-items: center;
+}
+.social{
+    font-size: 2rem;
+    margin-right: 7.3rem;
+    cursor: pointer;
+    transform: .3s ease-in;
+}
+.social i:hover{
+    transform: scale(1.1);
+}
+.number {
+    display: flex;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}
+.number p{
+    margin: 0rem 1.5rem;
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.slogan p{
+    margin: 0 auto;
+    margin-right: 4rem;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.2rem;
+}
+/* End of Nav-page */
+
+/* Start of Home page */
+.main-div{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.688),rgba(0, 0, 0, 0.687)), url(beautiful_summer_landscape_5-wallpaper-1920x1080.jpg);
+    background-position: center;
+}
+.center{
+    color: white;
+    text-align: center;
+}
+.center h1{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 40px  white;
+}
+.center .p-tag{
+    padding-bottom: 5rem;
+    font-size: 1.8rem;
+}
+.center button{
+    padding: .4rem 1.2rem;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s;
+    background-color: rgb(9, 233, 9);
+    box-shadow: 0px 0px 20px 2px rgb(255, 255, 255);
+    border: 2px solid white; 
+}
+.title{
+    color: rgb(9, 233, 9);
+    font-size: 4rem;
+}
+.center .num{
+    padding-top: 5rem;
+    font-size: 3rem;
+}
+.center i{
+    font-size: 4rem;
+    margin-top: 1.6rem;
+    text-shadow: 0px 0px 30px  rgb(9, 233, 9); 
+}
+/* End of home page */
+
+/* start of about page */
+.about-container{
+    height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:black;
+    color: white;
+    font-size: 1.7rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.804)), url(beautiful_summer_landscape_5-wallpaper-1920x1080.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.about-container p{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    color: rgb(231, 231, 231);
+}
+.our-mission{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem 0rem 2rem 0rem;
+    font-size: 2.2rem;
+    
+}
+.about-us{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 2.2rem;
+    padding: 4rem 0rem 0rem 0rem;
+    
+}
+.about-span{
+    font-size: 3.5rem;
+}
+
+/* End of About page */
+
+/* Start of Services page */
+.service-container{
+    height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(images/tree-land.jpeg);
+    background-position: center;
+    background-size: cover;   
+}
+.service-title{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+.service-span{
+    font-size: 5rem;
+}
+.three-boxes{
+    height: 26rem;
+    width: 81rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tree-box{
+    height: 26rem;
+    width: 23rem;
+    border: 2px solid white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/lumberjack-cutting-tree-trunk-with-chainsaw-in-forest-CAVF29949.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0px 0px 25px 2px rgb(91, 91, 91);
+}
+.landscape-box{
+    height: 26rem;
+    width: 23rem;
+    border: 2px solid white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/lawn.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-position: 65%;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 25px 2px rgb(91, 91, 91);
+}
+.snow-box{
+    height: 26rem;
+    width: 23rem;
+    border: 2px solid white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/snow2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-position: 60%;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50px;
+    box-shadow: 0px 0px 25px 2px rgb(91, 91, 91);
+}
+/* End of Services page */
+
+/* Start of Contact page */
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(images/trees.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.container2 {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.contact-form {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.3rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="phone"],
+.form-group input[type="address"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-group button {
+    background-color: rgb(9, 233, 9);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: .2s;
+    color: black;
+}
+
+.form-group button:hover {
+    background-color: rgb(9, 233, 9);
+}
