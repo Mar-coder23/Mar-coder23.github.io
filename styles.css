@@ -127,7 +127,7 @@ button:hover{
 .main-div{
     height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.688),rgba(0, 0, 0, 0.687)), url(beautiful_summer_landscape_5-wallpaper-1920x1080.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.688),rgba(0, 0, 0, 0.687)), url(images/beautiful_summer_landscape_5-wallpaper-1920x1080.jpg);
     background-position: center;
 }
 .center{
@@ -180,7 +180,7 @@ button:hover{
     background-color:black;
     color: white;
     font-size: 1.7rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.804)), url(beautiful_summer_landscape_5-wallpaper-1920x1080.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.804)), url(images/beautiful_summer_landscape_5-wallpaper-1920x1080.jpg);
     background-position: center;
     background-size: cover; 
 }
