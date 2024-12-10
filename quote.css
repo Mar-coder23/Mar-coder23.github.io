@@ -30,6 +30,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     font-size: 1.3rem;
+    margin-top: 4em;
     
 }
 
@@ -148,6 +149,9 @@ span{
 .form-group button:hover {
     background-color: rgb(9, 233, 9);
 }
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
