@@ -1,10 +1,10 @@
-# GreenScape Landscaping Services
+# GrassDoc Landscaping Services
 
-Welcome to GreenScape Landscaping! We specialize in providing top-tier grass landscaping solutions for residential and commercial properties. From lawn care to full landscaping design, our team is dedicated to transforming outdoor spaces into lush, green landscapes that thrive year-round.
+Welcome to GrassDoc Landscaping! We specialize in providing top-tier grass landscaping solutions for residential and commercial properties. From lawn care to full landscaping design, our team is dedicated to transforming outdoor spaces into lush, green landscapes that thrive year-round.
 
 ## About Us
 
-GreenScape Landscaping has been serving the community for over 10 years. With a passion for beautiful lawns and a commitment to sustainable practices, we offer customized solutions to suit every lawn's unique needs. Whether you're looking for regular lawn maintenance, turf installation, or a complete landscape redesign, we've got you covered.
+GrassDoc has been serving the community for over 10 years. With a passion for beautiful lawns and a commitment to sustainable practices, we offer customized solutions to suit every lawn's unique needs. Whether you're looking for regular lawn maintenance, turf installation, or a complete landscape redesign, we've got you covered.
 
 ## Services We Offer
 
@@ -41,16 +41,16 @@ GreenScape Landscaping has been serving the community for over 10 years. With a 
 Ready to transform your lawn? Get in touch with us to schedule a consultation!
 
 📞 **Phone:** (123) 456-7890  
-📧 **Email:** contact@greenscape.com  
-🌐 **Website:** [www.greenscape.com](http://www.greenscape.com)
+📧 **Email:** contact@GrassDoc.com  
+🌐 **Website:** https://mar-coder23.github.io/grass-doc.github.io/
 
 ## How to Contribute
 
 If you're interested in contributing to our grass landscaping initiatives, feel free to fork this repository and submit a pull request. Whether you're providing new resources, better ways to maintain turf, or ways to enhance customer experience, we're open to creative ideas!
 
 ### Contributors
-- John Doe - Founder & CEO
-- Jane Smith - Head Designer
+- Mario Stanic - Founder & CEO
+- Mario Stanic - Head Designer
 
 ## License
 
